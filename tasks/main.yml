@@ -1,0 +1,6 @@
+---
+
+- name: add npm
+  yum:
+    name: npm
+  become: yes
