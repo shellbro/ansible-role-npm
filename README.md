@@ -1,5 +1,7 @@
-npm
-===
+shellbro.npm
+============
+
+[![Build Status](https://travis-ci.org/shellbro/ansible-role-npm.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-npm)
 
 Ansible role for installing npm on CentOS 7.
 
@@ -23,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-          - shellbro.npm
+        - shellbro.npm
 
 License
 -------

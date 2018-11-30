@@ -1,6 +1,6 @@
 ---
 
-- name: add npm
+- name: install npm
   yum:
     name: npm
-  become: yes
+  become: true
